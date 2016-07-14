@@ -15,6 +15,13 @@ def render_str(template, **params):
 
 
 def create_movie_tiles_content(movies):
+	"""
+	Creates HTML content which will be placed into body of main HTML page
+
+	:param movies: List of Movie objects
+	:return: Raw HTML content to be built into main HTML page
+	"""
+
 	# The HTML content for this section of the page
 
 	content = ''
@@ -39,11 +46,19 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
+	"""
+	open_movies_page(movies)
+	Creates a movies gallery in html format from a list of Movie objects. The web browser is opened immediately
+	and it navigates to the created local html file
+
+	:param movies: list of Movie objects
+	"""
 
 	# Create or overwrite the output file
 	output_file = open('fresh_tomatoes.html', 'w')
 
 	# build HTML content from template
+	# movie_tiles is not escaped!
 	rendered_content = render_str("main_page.html", movie_tiles=create_movie_tiles_content(movies))
 
 	# Output the file
