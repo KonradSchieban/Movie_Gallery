@@ -2,7 +2,7 @@ Movie Gallery (v1.0)
 
 Movie_Gallery is a Python project which creates a movie gallery in HTML format.
 
-1. Content:
+<h1> 1. Content: </h1>
 
 Movie_Gallery
 |-- main.py
