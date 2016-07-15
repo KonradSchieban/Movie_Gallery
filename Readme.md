@@ -1,6 +1,6 @@
-Movie Gallery (v1.0)
+<h1>Movie Gallery</h1> (v1.0)
 
-Movie_Gallery is a Python project which creates a movie gallery in HTML format.
+<b>Movie_Gallery is a Python project which creates a movie gallery in HTML format.</b>
 
 <h1> 1. Content </h1>
     - Movie_Gallery
@@ -8,7 +8,7 @@ Movie_Gallery is a Python project which creates a movie gallery in HTML format.
     |-- main.py
     |-- fresh_tomatoes.py
     |-- media.py
-    |-- Readme.txt
+    |-- Readme.md
     |-- templates/
         |--- main_page.html
         |--- movie_tile_content.html
