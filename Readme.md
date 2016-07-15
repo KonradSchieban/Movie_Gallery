@@ -10,26 +10,8 @@ Movie_Gallery<br />
 |-- media.py<br />
 |-- Readme.txt<br />
 |-- templates/<br />
-    |-- main_page.html<br />
-    |-- movie_tile_content.html<br />
-
-/proc/self/
-|-- attr
-|-- cwd -> /proc
-|-- fd
-|   `-- 3 -> /proc/15589/fd
-|-- fdinfo
-|-- net
-|   |-- dev_snmp6
-|   |-- netfilter
-|   |-- rpc
-|   |   |-- auth.rpcsec.context
-|   |   |-- auth.rpcsec.init
-|   |   |-- auth.unix.gid
-|   |   |-- auth.unix.ip
-|   |   |-- nfs4.idtoname
-|   |   |-- nfs4.nametoid
-|   |   |-- nfsd.export
+?ts=4    |-- main_page.html<br />
+?ts=4    |-- movie_tile_content.html<br />
 
 2. Prerequisites:
     - Movie_Gallery uses Jinja2 to render dynamic HTML content. To install Jinja2 and make it available to Python
