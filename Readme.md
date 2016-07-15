@@ -3,28 +3,28 @@ Movie Gallery (v1.0)
 Movie_Gallery is a Python project which creates a movie gallery in HTML format.
 
 <h1> 1. Content </h1>
-    - 
-    Movie_Gallery<br />
-    |-- main.py<br />
-    |-- fresh_tomatoes.py<br />
-    |-- media.py<br />
-    |-- Readme.txt<br />
-    |-- templates/<br />
-        |--- main_page.html<br />
-        |--- movie_tile_content.html<br />
+    - Movie_Gallery
+    
+    |-- main.py
+    |-- fresh_tomatoes.py
+    |-- media.py
+    |-- Readme.txt
+    |-- templates/
+        |--- main_page.html
+        |--- movie_tile_content.html
 
 <h1> 2. Prerequisites </h1> 
     - Movie_Gallery uses Jinja2 to render dynamic HTML content. To install Jinja2 and make it available to Python
-      open a terminal and type<br />
+      open a terminal and type
         > pip install Jinja2
 
 <h1> 3. Run the program </h1> 
-    Open a terminal, navigate in the folder Movie_Gallery and type<br />
+    Open a terminal, navigate in the folder Movie_Gallery and type
         > python main.py
 
 <h1> 4. How to change the list of displayed movies </h1> 
     Open the file main.py with an editor. A couple of movie objects are created in the main() function. Additional
-    movie objects can be created with the syntax<br />
+    movie objects can be created with the syntax
 
     movie_obj = media.Movie("A title",
 							"some description",
