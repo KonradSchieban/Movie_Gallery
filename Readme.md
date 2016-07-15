@@ -1,4 +1,4 @@
-<h1>Movie Gallery</h1> (v1.0)
+<h1>Movie Gallery (v1.0)</h1>
 
 <b>Movie_Gallery is a Python project which creates a movie gallery in HTML format.</b>
 
