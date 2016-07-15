@@ -10,7 +10,8 @@ class Movie:
             movie_storyline: Short description of the movie
             poster_image: URL of the movie poster (in jpg format)
             trailer_youtube: URL of the trailer in Youtube
-            imdb_link (optional): URL of movie's IMDB link (default: empty string)
+            imdb_link (optional): URL of movie's IMDB link
+                (default: empty string)
             year (optional): Year of appearance (default: empty string)
     """
 
@@ -28,7 +29,8 @@ class Movie:
         :param movie_storyline: Short description of the movie
         :param poster_image: URL of the movie poster (in jpg format)
         :param trailer_youtoube: URL of the trailer in Youtube
-        :param imdb_link (optional): URL of movie's IMDB link (default: empty string)
+        :param imdb_link (optional): URL of movie's
+            IMDB link (default: empty string)
         :param year (optional): Year of appearance (default: empty string)
         """
 
@@ -46,6 +48,3 @@ class Movie:
         """
 
         webbrowser.open(self.trailer_youtube_url)
-
-
-
