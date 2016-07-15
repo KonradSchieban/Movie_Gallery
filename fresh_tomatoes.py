@@ -4,7 +4,8 @@ import re
 import jinja2
 
 template_dir = os.path.join(os.path.dirname(__file__), 'templates')
-jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir), autoescape=True)
+jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir),
+                               autoescape=True)
 
 
 def render_str(template, **params):
@@ -48,8 +49,9 @@ def create_movie_tiles_content(movies):
 def open_movies_page(movies):
     """
     open_movies_page(movies)
-    Creates a movies gallery in html format from a list of Movie objects. The web browser is opened immediately
-    and it navigates to the created local html file
+    Creates a movies gallery in html format from a list of Movie objects.
+    The web browser is opened immediately and it navigates to the
+    created local html file
 
     :param movies: list of Movie objects
     """
@@ -59,7 +61,8 @@ def open_movies_page(movies):
 
     # build HTML content from template
     # movie_tiles is not escaped!
-    rendered_content = render_str("main_page.html", movie_tiles=create_movie_tiles_content(movies))
+    rendered_content = render_str("main_page.html",
+                                  movie_tiles=create_movie_tiles_content(movies))  # noqa
 
     # Output the file
     output_file.write(rendered_content)
@@ -68,4 +71,3 @@ def open_movies_page(movies):
     # open the output file in the browser (in a new tab, if possible)
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
-
