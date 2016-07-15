@@ -10,8 +10,8 @@ Movie_Gallery<br />
 |-- media.py<br />
 |-- Readme.txt<br />
 |-- templates/<br />
-?ts=4    |-- main_page.html<br />
-?ts=4    |-- movie_tile_content.html<br />
+&nbsp    |-- main_page.html<br />
+&nbsp   |-- movie_tile_content.html<br />
 
 2. Prerequisites:
     - Movie_Gallery uses Jinja2 to render dynamic HTML content. To install Jinja2 and make it available to Python
